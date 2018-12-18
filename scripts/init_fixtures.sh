@@ -1,8 +1,8 @@
 echo "Rechargement des fixtures..."
 
 CURRENT_DIR=`dirname $0`
-FIXTURES_DIR="$CURRENT_DIR/../fixtures"
-BAZAR_DIR="$CURRENT_DIR/../fixtures/bazar"
+FIXTURES_DIR="$CURRENT_DIR/../projet_cleaner/fixtures"
+BAZAR_DIR="$CURRENT_DIR/../projet_cleaner/fixtures/bazar"
 
 rm -rf $BAZAR_DIR
 

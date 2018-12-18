@@ -1,8 +1,8 @@
 #!/bin/bash
 
 CURRENT_DIR=`dirname $0`
-BAZAR_DIR="$CURRENT_DIR/../fixtures/bazar"
-BAZAR_CLEAN_DIR="$CURRENT_DIR/../fixtures/bazar_clean"
+BAZAR_DIR="$CURRENT_DIR/../projet_cleaner/fixtures/bazar"
+BAZAR_CLEAN_DIR="$CURRENT_DIR/../projet_cleaner/fixtures/bazar_clean"
 
 if [ -e $BAZAR_DIR ] && [ -d $BAZAR_DIR ]
 then
